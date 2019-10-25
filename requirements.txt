@@ -25,3 +25,4 @@ values==2019.4.13
 wcwidth==0.1.7
 write==2019.4.13
 zipp==0.6.0
+python-coveralls==2.9.3
