@@ -19,7 +19,7 @@ simple test run
 ```
 test run with html-coverage report
 ```bash
-~ $ pytest -- cov  
+~ $ pytest --cov  
 ```
 
 ##  Test coverage report
