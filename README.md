@@ -1,12 +1,11 @@
 # Headers
-This repository contains solving three tasks.
-    1. Time-string parser
-    2. File-zipper
-    3. Generator merge 
+
+This repository contains solving three tasks:
+- **Time-string parser**
+- **File-zipper**
+- **Generator merge**
      
 ## Install
-
-some text
 
 ```bash
 pip install -r requirements.txt
