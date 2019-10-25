@@ -1,5 +1,4 @@
-# Positive Technology
-
+# Headers
 This repository contains solving three tasks.
     1. Time-string parser
     2. File-zipper
