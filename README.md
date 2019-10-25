@@ -1,4 +1,4 @@
-# Headers
+# Headers  [![Build Status](https://travis-ci.com/OtecAbsolut/pt.svg?branch=master)](https://travis-ci.com/OtecAbsolut/pt)
 
 This repository contains solving three tasks:
 - **[Time-string parser](/time_func.py)**
@@ -11,7 +11,7 @@ This repository contains solving three tasks:
 pip install -r requirements.txt
 ```
 
-## For tests running
+## Test run
 
 simple test run
 ```bash
