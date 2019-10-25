@@ -1,9 +1,9 @@
 # Headers
 
 This repository contains solving three tasks:
-- **Time-string parser**
-- **File-zipper**
-- **Generator merge**
+- **[Time-string parser](/time_func.py)**
+- **[File-zipper](/huge_file_zip.py)**
+- **[Generator merge](/merge_func.py)**
      
 ## Install
 
