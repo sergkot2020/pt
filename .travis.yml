@@ -7,6 +7,6 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - pytest --doctest-modules -v --cov coveralls --cov-report term-missing
+  - coverage run -m pytest && coverage report
 after_success:
   - coveralls
