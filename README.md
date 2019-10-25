@@ -1,31 +1,29 @@
-# Positive Technology
+# Headers
 
-This repository contains solving three tasks.
-    1. Time-string parser
-    2. File-zipper
-    3. Generator merge 
+This repository contains solving three tasks:
+- **[Time-string parser](/time_func.py)**
+- **[File-zipper](/huge_file_zip.py)**
+- **[Generator merge](/merge_func.py)**
      
-## Requirements
-
-some text
+## Install
 
 ```bash
-pip install foobar
+pip install -r requirements.txt
 ```
 
 ## For tests running
 
 simple test run
-```
+```bash
 ~ $ pytest   
 ```
 test run with html-coverage report
-```
-~ $ pytest -- cov  
+```bash
+~ $ pytest --cov  
 ```
 
 ##  Test coverage report
 
-ссылка на report
+![title](htmlcov/COV.png)
 
 
