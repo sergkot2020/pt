@@ -11,7 +11,7 @@ This repository contains solving three tasks:
 pip install -r requirements.txt
 ```
 
-## For tests running
+## Test run
 
 simple test run
 ```bash
