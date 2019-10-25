@@ -4,22 +4,21 @@ This repository contains solving three tasks.
     2. File-zipper
     3. Generator merge 
      
-## Requirements
+## Install
 
 some text
 
 ```bash
-pip install foobar
+pip install -r requirements.txt
 ```
 
 ## For tests running
 
-simple test run
-```
+```bash
 ~ $ pytest   
 ```
 test run with html-coverage report
-```
+```bash
 ~ $ pytest -- cov  
 ```
 
