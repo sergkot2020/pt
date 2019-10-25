@@ -13,6 +13,7 @@ pip install -r requirements.txt
 
 ## For tests running
 
+simple test run
 ```bash
 ~ $ pytest   
 ```
@@ -23,6 +24,6 @@ test run with html-coverage report
 
 ##  Test coverage report
 
-ссылка на report
+![title](img/before.jpg)
 
 
