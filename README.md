@@ -24,6 +24,6 @@ test run with html-coverage report
 
 ##  Test coverage report
 
-![title](img/before.jpg)
+![title](htmlcov/COV.png)
 
 
