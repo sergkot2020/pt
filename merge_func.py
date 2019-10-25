@@ -21,24 +21,24 @@ def merge(*args):
     iter_convert_input_args = [i.__iter__() if type(i) in (tuple, list) else i for i in args]
     # Create a dictionary where key is iter object, value is None "{<iter obj>: None, ...} "
     iterators_dict = {obj: None for obj in iter_convert_input_args}
-    # Each step 'while' cycle we get first value on each input generator,
-    # and add this value in 'iterators_dict'
+    # At each step of 'while' cycle we get the first value of each input generator
+    # and add this value to 'iterators_dict'
     while True:
 
         for sequence in iter_convert_input_args:
-            # If generators has not value and he is not ended, we set value
+            # If generators has no value and it is not ended, we set value
             if iterators_dict[sequence] is None and iterators_dict[sequence] != 'done':
                 try:
                     iterators_dict[sequence] = next(sequence)
                 except StopIteration:
-                    # When generators will be end, we set 'done' for them
+                    # When generators end, we set 'done' for them
                     iterators_dict[sequence] = 'done'
 
         min_values_list = list(iterators_dict.values())
-        # If all generators will be ended, we break cycle
+        # If all generators end, the execution stops
         if min_values_list.count('done') == len(min_values_list):
             return
-        # turn over our dictionary so that later we can set None for generators with min value
+        # reverse dictionary so that later we could set None for generators with min value
         reverse_iter_dict = dict(zip(min_values_list, iterators_dict.keys()))
         min_value = min(filter(lambda x: x != 'done', min_values_list))
         iterators_dict[reverse_iter_dict[min_value]] = None
